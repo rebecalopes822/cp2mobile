@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/welcomeFragment">
+
+    <fragment
+        android:id="@+id/welcomeFragment"
+        android:name="com.example.cp2mobile.WelcomeFragment">
+        <action
+            android:id="@+id/action_welcomeFragment_to_formFragment"
+            app:destination="@id/formFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/formFragment"
+        android:name="com.example.cp2mobile.FormFragment">
+        <action
+            android:id="@+id/action_formFragment_to_resultFragment"
+            app:destination="@id/resultFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/resultFragment"
+        android:name="com.example.cp2mobile.ResultFragment" />
+</navigation>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Cadastro de Participantes</string>
+    <string name="button_send">Cadastrar</string>
+    <string name="hint_name">Digite seu nome completo</string>
+    <string name="hint_email">Digite seu email</string>
+
+    <string-array name="event_categories">
+        <item>Estudante</item>
+        <item>Profissional</item>
+        <item>Organizador</item>
+    </string-array>
+
+    <string name="success_message">Cadastro realizado com sucesso!</string>
+    <string name="error_message">Por favor, preencha todos os campos.</string>
+</resources>
